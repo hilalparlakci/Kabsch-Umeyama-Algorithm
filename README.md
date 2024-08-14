@@ -1,0 +1,3 @@
+# Kabsch-Umeyama-Algorithm
+
+Kabsch-Umeyama Algorithm has been implemented to appropriately merge large datasets containing two 3D point matrix to create a meaningful visualization. Q and P are referred to as the two large datasets of size 3xk that will be aligned. Both datasets contain points that correspond to each other in their respective columns. There are no non-corresponding points present. Kabsch-Umeyma algorithm is used to generate the rotation matrix necessary to align the two datasets. The algorithm aims to align the corresponding points in both datasets with minimal error. SVD also implemented to calculate Kabsch-Umeyama matrices.
